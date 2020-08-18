@@ -56,7 +56,7 @@ public class BookAdapter extends RecyclerView.Adapter<BaseViewHolder> {
             tvDesc = itemView.findViewById(R.id.label_desc);
             tvAuthor = itemView.findViewById(R.id.label_author);
             tvPrice = itemView.findViewById(R.id.label_price);
-            ivThumbnail = itemView.findViewById(R.id.image_emp);
+            ivThumbnail = itemView.findViewById(R.id.image_book);
         }
 
         @Override

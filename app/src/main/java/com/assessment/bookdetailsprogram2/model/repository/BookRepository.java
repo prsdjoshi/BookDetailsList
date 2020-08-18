@@ -42,12 +42,12 @@ public class BookRepository {
                     BookDetails = (ArrayList<BookDetails>) book.getData();
                     mutableLiveData.setValue(BookDetails);
                 }
+
             }
 
             @Override
             public void onFailure(Call<Book> call, Throwable t) {
                 Log.d("bookRepository MutableLiveData: ","onFailure() call");
-
             }
         });
         return mutableLiveData;
